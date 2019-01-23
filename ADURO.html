@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Aduro Biotech</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div> 
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Learn More About Each Company Here
+     
+    <span class="caret"></span>
+  </a>
+  
+  <ul class="dropdown-menu" role="menu">
+
+<style type="text/css">
+          /*dropdown menu code start*/
+          @media only screen and (min-width:769px) {
+              .dropdown:hover .dropdown-menu {
+                  display: block;
+              }
+              .dropdown-submenu {
+                  position: relative !important;
+              }
+
+              .dropdown-submenu>.dropdown-menu {
+                  top: 0 !important;
+                  left: 100% !important;
+                  margin-top: -6px !important;
+                  margin-left: -1px !important;
+                  border-radius: 0 !important;
+              }
+
+              .dropdown-submenu:hover>.dropdown-menu {
+                  display: block !important;
+              }
+
+              .dropdown-submenu>a:after {
+                  display: block;
+                  content: "\f105";
+                  font-family: 'FontAwesome';
+                  margin-top: -15px;
+                  right: 20px;
+                  position: absolute;
+                  font-weight: 300;
+              }
+              .customcaret{
+                float: right;
+              }
+            }
+          /*dropdown menu code start*/
+
+         .navbar-default .navbar-nav > li > a {
+            color: #535353;
+            transition: all ease 0.5s;
+            -webkit-transition: all ease 0.5s;
+            -moz-transition: all ease 0.5s;
+            font-size: 2em !important;
+            text-transform: uppercase;
+        }
+        </style>
+        
+       
+  <ul class="dropdown-submenu">
+    <li>
+      <a href="ADURO.html">Aduro Biotech</a>
+    </li>
+    
+    <li>
+      <a href="MERCK.html">Merck</a>
+    </li>
+    
+    <li>
+      <a href="SPRINGBANK.html">Spring bank pharmaceuticals</a>
+    </li>
+    
+    <li>
+      <a href="BMS.html">Bristol-Myers Squibb</a>
+    </li>
+    
+    <li>
+      <a href="Stinginn.html">StingInn</a>
+    </li>
+    
+    <li>
+      <a href="VYRIAD.html">Vyriad</a>
+    </li>
+    
+    <li>
+      <a href="CURADEV.html">Curadev</a>
+    </li>
+    
+    <li>
+      <a href="Mavupharma.html">Mavupharma</a>
+    </li>
+    
+    <li>
+      <a href="Synlogic.html">Synlogic</a>
+    </li>
+    
+    <li>
+      <a href="venn.html">Venn Therapeutics</a>
+    </li>
+    
+    <li>
+      <a href="IFM.html">IFM Therapeutics</a>
+    </li>
+    
+    <li>
+      <a href="iteo.html">iTeos Therapeutics</a>
+    </li>
+    
+    <li>
+      <a href="nimbus.html">NIMBUS Therapeutics</a>
+    </li>
+    
+    <li>
+      <a href="celgene.html">Celgene</a>
+    </li>
+    
+    <li>
+      <a href="sirenas.html">Sirenas</a>
+    </li>
+    
+    <li>
+      <a href="replimune.html">Replimune</a>
+    </li>
+    
+  </ul>
+  
+</li>
+
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Aduro Biotech</h1>
+
+</div>
+
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+<p><br />
+</p>
+<div id="aduro-biotech-competitive-strength" class="section level1">
+<h1><strong>Aduro Biotech (competitive strength): </strong></h1>
+<p>A biopharmaceutical company with three distinct immunotherapy technologies - STING pathway, B-select Antibodies, LADD.</p>
+</div>
+<div id="latest-news-about-their-sting-pathway-apr-2018" class="section level1">
+<h1><strong>Latest news about their STING Pathway (Apr 2018): </strong></h1>
+<p><em>“For ADU-S100, we’ve confirmed in preclinical models that signaling through the STING pathway is critical to elicit tumor-reactive CD8+ T cells, the cornerstone of effective, durable and systemic anti-tumor immunity as evident from rejection of distant tumors. Importantly, these preclinical data show that adding checkpoint inhibitors to an ADU-S100 treatment regimen can eradicate tumors unresponsive to anti-PD-1 immunotherapy.”</em></p>
+<p><em>Proof of concept studies in syngeneic mouse models demonstrate that, the company’s humanized anti-CTLA-4 monoclonal antibody (ADU-1604) further enhances anti-tumor activity when used in combination with ADU-S100 (also known as MIW815), Aduro’s lead investigational STING agonist, and in combination with Aduro’s proprietary immunotherapy platform of live-attenuated double-deleted Listeria monocytogenes strains (LADD). </em></p>
+</div>
+<div id="pipeline" class="section level1">
+<h1><strong>Pipeline</strong></h1>
+<p><img src="timeline_pic.png" style="width:50%; height:70px"> <img src="company_analysis_excel/Aduro.jpg" style="width:100%; height:600px"></p>
+<p>For more details, check the reference below.</p>
+</div>
+<div id="reference" class="section level1">
+<h1>Reference</h1>
+<p>ADU-S100:<br />
+<a href="http://www.aduro.com/pipeline/clinical-trials/" class="uri">http://www.aduro.com/pipeline/clinical-trials/</a><br />
+<a href="https://www.clinicaltrials.gov/ct2/show/record/NCT02675439?term=NCT02675439&amp;rank=1" class="uri">https://www.clinicaltrials.gov/ct2/show/record/NCT02675439?term=NCT02675439&amp;rank=1</a></p>
+<p>ADU-S100 (with anti-PD1):<br />
+<a href="https://www.clinicaltrials.gov/ct2/show/NCT02675439?term=NCT02675439&amp;rank=1" class="uri">https://www.clinicaltrials.gov/ct2/show/NCT02675439?term=NCT02675439&amp;rank=1</a></p>
+<p>Overall:<br />
+<a href="http://www.aduro.com/file.cfm/125/docs/aduro_factsheet_v13.pdf" class="uri">http://www.aduro.com/file.cfm/125/docs/aduro_factsheet_v13.pdf</a><br />
+<a href="http://investors.aduro.com/phoenix.zhtml?c=242043&amp;p=irol-SECText&amp;TEXT=aHR0cDovL2FwaS50ZW5rd2l6YXJkLmNvbS9maWxpbmcueG1sP2lwYWdlPTEwMjA1NTc2JkRTRVE9MSZTRVE9MTA4JlNRREVTQz1TRUNUSU9OX1BBR0UmZXhwPSZzdWJzaWQ9NTc%3D">http://investors.aduro.com/phoenix.zhtml?c=242043&amp;p=irol-SECText&amp;TEXT=aHR0cDovL2FwaS50ZW5rd2l6YXJkLmNvbS9maWxpbmcueG1sP2lwYWdlPTEwMjA1NTc2JkRTRVE9MSZTRVE9MTA4JlNRREVTQz1TRUNUSU9OX1BBR0UmZXhwPSZzdWJzaWQ9NTc%3D</a><br />
+<a href="https://www.sec.gov/Archives/edgar/data/1435049/000119312518005085/d520515dex991.htm" class="uri">https://www.sec.gov/Archives/edgar/data/1435049/000119312518005085/d520515dex991.htm</a> <a href="http://www.aduro.com/file.cfm/1/docs/Aduro_2017_AnnualReport.pdf" class="uri">http://www.aduro.com/file.cfm/1/docs/Aduro_2017_AnnualReport.pdf</a> <a href="http://investors.aduro.com/phoenix.zhtml?c=242043&amp;p=irol-newsArticle&amp;ID=2316178" class="uri">http://investors.aduro.com/phoenix.zhtml?c=242043&amp;p=irol-newsArticle&amp;ID=2316178</a></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

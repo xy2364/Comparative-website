@@ -1,0 +1,74 @@
+---
+title: "Replimune"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+
+
+
+# **Replimune Corporate Profile (competitive strength):  **  
+Replimune Group, Inc., is a biotechnology company developing oncolytic immunotherapies derived from its  **`Immulytic™`** platform.  
+
+Replimune’s powerful **`Immulytic™`** platform is intended to achieve the holy grail of personalized **anti-cancer vaccines** to activate innate immunity, including through toll-like receptors (TLRs) and stimulator of interferon genes (STING). The platform combines multiple mechanisms to deliver medicines with the ability to not only directly kill cancer cells and generate systemic anti-cancer immune responses, but also create a practical approach to achieving personalized systemic neoantigen vaccination directly in the patient.    
+
+Replimune is executing a broad, aggressive development plan with a pipeline of potent oncolytic immunotherapies now entering clinical studies for multiple types of cancer. They will use Immulytic™ platform to treat a wide range of solid tumors, including ‘immunologically cold’ tumor types.
+
+
+
+
+
+# **Latest news: **  
+July 19, 2018 - Replimune Announces Pricing of Initial Public Offering. J.P. Morgan, Leerink Partners and BMO Capital Markets are acting as joint book-running managers for the offering.
+
+
+
+
+#**Pipeline**
+<center><img src="timeline_pic.png" style="width:50%; height:70px">
+<center><img src="./company_analysis_excel/replimune.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference  
+https://www.replimune.com/our-science/immulytic-platform/  
+https://www.genengnews.com/gen-news-highlights/cancer-immunotherapy-developers-raise-nearly-150m-in-financing/81254908

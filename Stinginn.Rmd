@@ -1,0 +1,66 @@
+---
+title: "StingInn"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+# **StingInn (potential competitive strength):  **  
+The company has an ongoing drug discovery program in which it is using a proprietary STING pathway modulator screen to identify small molecule inhibitors and activators of the STING pathway. The company is also focused on the development of mechanisms that can locally activate the STING pathway inside a tumor. Currently, StingInn’s technology is capable of activating the cGAS-STING pathway inside a tumor, thereby amplifying the anti-tumor immune response.
+
+
+# **Latest news about their STING Pathway: **     
+Have not published any accomplishment since 2016.  
+
+
+#**Pipeline**  
+
+<img src="timeline_pic.png" style="width:50%; height:70px">
+<img src="./company_analysis_excel/stinginn.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference     
+http://www.vyriad.com/2016/08/05/vyriad-signs-exclusive-license-agreement-sting-technology-development-enhanced-oncolytic-virotherapy-treatments/
+
+
+

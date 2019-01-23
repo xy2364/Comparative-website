@@ -1,0 +1,75 @@
+---
+title: "Nimbus Therapeutics"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+
+
+
+# **Nimbus Therapeutics Corporate Profile (competitive strength):  ** 
+Nimbus Therapeutics focuses on the “triad” of related disease areas: **metabolic disorders, oncology and immunology**, which share overlapping biological mechanisms that drive disease.  
+<center><img src="./company_analysis_excel/nimbus2.jpg" style="width:40%; height:200px">
+
+
+
+
+
+# **Latest news: ** 
+*June 05, 2018* - Nimbus Therapeutics Announces $65 Million in New Financing to Accelerate Pipeline Progress and Expand Discovery Efforts. The company’s current investors participated in the financing, include Atlas Venture, SR One, Lilly Ventures, Bill Gates, Pfizer Venture Investments, Lightstone Ventures, and Schrödinger.
+Additionally, their wholly owned STING agonist program has generated novel, highly potent, bona fide small molecules with compelling preclinical data which has not been disclosed yet.
+
+
+
+
+#**Pipeline**
+<center><img src="timeline_pic.png" style="width:50%; height:70px">
+<center><img src="./company_analysis_excel/nimbus.jpg">
+
+
+
+\
+
+For more details, check the reference below.
+
+
+
+
+# Reference 
+
+http://www.nimbustx.com/targets/#STINGAG  
+https://www.businesswire.com/news/home/20180605005214/en/Nimbus-Therapeutics-Announces-65-Million-New-Financing  
+http://www.nimbustx.com/news-events/
+

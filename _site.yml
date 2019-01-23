@@ -1,0 +1,24 @@
+name: Comparison
+output_dir: '.'
+#when having navbar.html file, _site.yml file is useless
+
+navbar:
+  title: "Home"
+  
+  right:
+  - text: LEARN MORE ABOUT EACH COMPANY HERE
+    icon: fa-bar-chart
+    
+    
+  - text: Aduro Biotech
+    href: ADURO.html
+    
+
+
+
+output:
+  html_document:
+    theme: yeti
+    lib_dir: site_libs
+    self_contained: no
+

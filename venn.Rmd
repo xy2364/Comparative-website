@@ -1,0 +1,78 @@
+---
+title: "Venn Therapeutics"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+
+
+
+# **Venn Therapeutics Corporate Profile (competitive strength):  **  
+Venn Therapeutics only focuses on **immunotherapy (STING agonist, TGF- β blocking monoclonal antibodies, and β-catenin inhibitors)** and wants to vastly expand the population of patients receiving clinical benefit from it by promoting the infiltration, maturation and activation of potent antigen-presenting cells in the tumor microenvironment and antagonizing tumor escape mechanisms.  
+
+
+
+  
+# **Latest news** 
+
+*April 22, 2018* - Venn Therapeutics has completed an exclusive licensing deal with the University of California, San Francisco (UCSF) to advance its novel integrin αvβ8 antibody, created by a team of preeminent scientists at UCSF, led by Dr. Stephen Nishimura.  
+
+*January 20, 2018* - Dr. Stefani Spranger Joins Venn Therapeutics’ Scientific Advisory Board, who is an assistant Professor at Koch Institute for Integrative Cancer Research and Department of Biology, Massachusetts Institute of Technology, Cambridge, MA. She has co-authored significant scientific papers on key immunotherapeutic targets such as IDO, **STING**, Tregs and checkpoint inhibitors. She is the current chair of the ESC committee for SITC (Society for Immunotherapy of Cancer) and winner of the 2015 Wissler Fellowship Award at University of Chicago.
+
+
+
+
+
+#**Pipeline**  
+
+<img src="timeline_pic.png" style="width:50%; height:70px">
+<img src="./company_analysis_excel/venn.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference   
+
+https://www.tampabaynewswire.com/2018/04/23/venn-acquires-a-novel-integrin-%CE%B1v%CE%B28-antibody-precisely-targeting-tgf-%CE%B2-for-cancer-immunotherapy-67298  
+
+https://www.venntherapeutics.com/  
+
+https://www.tampabaynewswire.com/2018/01/21/dr-stefani-spranger-joins-venn-therapeutics-scientific-advisory-board-64549  

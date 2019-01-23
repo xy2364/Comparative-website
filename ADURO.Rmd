@@ -1,0 +1,90 @@
+---
+title: "Aduro Biotech"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+# **Aduro Biotech (competitive strength):  **  
+A biopharmaceutical company with three distinct immunotherapy technologies - STING pathway, B-select Antibodies, LADD.  
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# can use it next time to add a pic by the title. don't need the R chunk.
+#<script>
+   #$(document).ready(function() {
+     #$head = $('#header');
+     #$head.prepend('<img src=\"logos.jpg\" style=\"float: right;width: 150px;\"/>')
+   #});
+#</script>
+
+# the path problem: . means 当前project路径的同level的文件夹
+```
+
+# **Latest news about their STING Pathway (Apr 2018):  **  
+*"For ADU-S100, we’ve confirmed in preclinical models that signaling through the STING pathway is critical to elicit tumor-reactive CD8+ T cells, the cornerstone of effective, durable and systemic anti-tumor immunity as evident from rejection of distant tumors. Importantly, these preclinical data show that adding checkpoint inhibitors to an ADU-S100 treatment regimen can eradicate tumors unresponsive to anti-PD-1 immunotherapy."*
+
+*Proof of concept studies in syngeneic mouse models demonstrate that, the company's humanized anti-CTLA-4 monoclonal antibody (ADU-1604) further enhances anti-tumor activity when used in combination with ADU-S100 (also known as MIW815), Aduro’s lead investigational STING agonist, and in combination with Aduro’s proprietary immunotherapy platform of live-attenuated double-deleted Listeria monocytogenes strains (LADD).   *
+
+#**Pipeline**  
+
+<img src="timeline_pic.png" style="width:50%; height:70px">
+<img src="./company_analysis_excel/Aduro.jpg" style="width:100%; height:600px">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+# Reference  
+ADU-S100:    
+http://www.aduro.com/pipeline/clinical-trials/   
+https://www.clinicaltrials.gov/ct2/show/record/NCT02675439?term=NCT02675439&rank=1
+
+ADU-S100 (with anti-PD1):  
+https://www.clinicaltrials.gov/ct2/show/NCT02675439?term=NCT02675439&rank=1
+
+Overall:  
+http://www.aduro.com/file.cfm/125/docs/aduro_factsheet_v13.pdf  
+http://investors.aduro.com/phoenix.zhtml?c=242043&p=irol-SECText&TEXT=aHR0cDovL2FwaS50ZW5rd2l6YXJkLmNvbS9maWxpbmcueG1sP2lwYWdlPTEwMjA1NTc2JkRTRVE9MSZTRVE9MTA4JlNRREVTQz1TRUNUSU9OX1BBR0UmZXhwPSZzdWJzaWQ9NTc%3D  
+https://www.sec.gov/Archives/edgar/data/1435049/000119312518005085/d520515dex991.htm
+http://www.aduro.com/file.cfm/1/docs/Aduro_2017_AnnualReport.pdf
+http://investors.aduro.com/phoenix.zhtml?c=242043&p=irol-newsArticle&ID=2316178
+
+

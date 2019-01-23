@@ -1,0 +1,83 @@
+---
+title: "Merck & Co."
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+# **Merck & Co. (competitive strength):  **  
+With Merck's `KEYTRUDA (pembrolizumab)` and a growing early pipeline of 20 novel mechanisms, Merck has become a leader in immuno-oncology research with the largest clinical program in the industry. Data from Merck’s broad portfolio including KEYTRUDA, internally-discovered investigational STING agonist (MK-1454), and several collaborations including with *AstraZeneca* for the PARP inhibitor LYNPARZA® (olaparib), will be featured in more than 20 oral plenary and poster presentations.  
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# can use it next time to add a pic by the title. don't need the R chunk.
+#<script>
+   #$(document).ready(function() {
+     #$head = $('#header');
+     #$head.prepend('<img src=\"logos.jpg\" style=\"float: right;width: 150px;\"/>')
+   #});
+#</script>
+
+# the path problem: . means 当前project路径的同level的文件夹
+```
+
+# **Latest news about their STING Pathway (Apr 2018): **     
+  *"Merck’s Early Pipeline: Combining STING Agonists with an Anti-PD-1 Antagonist results in Marked AntiTumor Activity in Immune-Excluded Tumors. MK-1454, Merck’s investigational STING (stimulator of interferon genes) agonist, is currently being evaluated in a phase 1 study as monotherapy and in combination with KEYTRUDA in patients with advanced solid tumors and lymphomas. Abstract #4721/24. S Perera. Poster Presentation: Tuesday, April 17, 1:00-5:00 p.m. CDT."*
+
+
+
+#**Pipeline**  
+
+<img src="timeline_pic.png" style="width:50%; height:70px">
+<img src="./company_analysis_excel/merck.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference   
+http://investors.merck.com/news/press-release-details/2018/First-Line-Lung-Cancer-Data-and-Other-New-Research-from-Mercks-Broad-Oncology-Program-to-be-Presented-at-AACR-Annual-Meeting/default.aspx
+https://clinicaltrials.gov/ct2/show/record/NCT03010176
+
+
+
+

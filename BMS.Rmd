@@ -1,0 +1,62 @@
+---
+title: "Bristol-Myers Squibb (BMS)"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+# **BMS (competitive strength):  **   
+*The collaboration with IFM: *     
+BOSTON, March 7, 2018 —   `IFM Therapeutics, LLC (IFM)`, a privately held biopharmaceutical company focused on developing therapies that modulate novel targets in the innate immune system to treat inflammatory disorders and cancer, has been awarded Clarivate Analytics’ 2017 “Deal of the Year” for the `Bristol-Myers Squibb (BMS)` acquisition of IFM’s preclinical STING and NLRP3 agonist programs. While at IFM, they explore modulating these pathways to treat chronic inflammation and autoimmune disorders  
+
+
+#**Pipeline**  
+
+<img src="timeline_pic.png" style="width:50%; height:70px">
+<img src="./company_analysis_excel/bms.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference     
+https://news.bms.com/press-release/partnering-news/bristol-myers-squibb-acquire-ifm-therapeutics-strengthen-oncology-pipe
+https://www.ifmthera.com/news/ifm-therapeutics-and-bristol-myers-squibb-awarded-2017-deal-of-the-year-by-clarivate-analytics/
+
+

@@ -1,0 +1,98 @@
+---
+title: "Spring bank Pharmaceuticals"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+# **Spring bank Pharmaceuticals (competitive strength):  ** 
+A clinical-stage biopharmaceutical company engaged in the discovery and development of a novel class of therapeutics using their proprietary small molecule nucleic acid hybrid (SMNH) chemistry platform.    
+
+SB 11285 will potentially be first IV STING agonist to enter the clinic – late 2018/early 2019.  
+
+All of Spring Bank’s next generation STING agonists are specifically designed to be conjugated with antibodies as antibody-drug conjugates (ADCs) for a possible targeted delivery approach. These compounds are potentially more potent than currently available STING modulators and have the potential to be administered intravenously.  
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# can use it next time to add a pic by the title. don't need the R chunk.
+#<script>
+   #$(document).ready(function() {
+     #$head = $('#header');
+     #$head.prepend('<img src=\"logos.jpg\" style=\"float: right;width: 150px;\"/>')
+   #});
+#</script>
+
+# the path problem: . means 当前project路径的同level的文件夹
+```
+
+# **Latest news about their STING Pathway: **   
+
+*Advance the company’s proprietary, novel next-generation STING agonist candidate, SB 11285, into the clinic:   The company plans to submit a clinical trial application for SB 11285 in the second half of 2018, and, if approved, initiate a Phase 1b/2 clinical trial in hepatocellular carcinoma later in the second half of 2018.*
+	
+ *"We plan to focus on the development of our most advanced product candidate, inarigivir, for the treatment of hepatitis B virus and SB 11285, an immunotherapeutic agent for the treatment of selected cancers through the activation of the STING pathway."*
+ 
+*Expand the Spring Bank STING agonist platform:  The company is exploring additional delivery methods for its STING agonist platform, including nanoparticle formulations as well as further development of antibody-drug conjugates to be used with the company’s STING agonist product candidates.*
+
+**2017 Accomplishment of Advanced SB 11285 for immuno-oncology:  **  
+• The company presented data from multiple preclinical studies that demonstrated SB 11285 as a highly potent anti-tumor agent with a durable anti-tumor response when administered by multiple routes in several tumor models.       
+• Spring Bank initiated the IND-enabling toxicology program for SB 11285.    
+• Spring Bank consummated an Evaluation Assessment Agreement with a major Antibody Drug Conjugate (ADC)   biopharmaceutical company to examine the potential to conjugate the Spring Bank STING agonist compounds with proprietary antibodies for oncology.    
+• Four Patent Cooperation Treaty (PCT) applications were published in January 2018 by the U.S. Patent and Trademark Office covering the Spring Bank STING agonist platform program.    
+
+
+#**Pipeline**  
+
+<img src="timeline_pic.png" style="width:50%; height:70px">
+<img src="./company_analysis_excel/springbank.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference     
+https://springbankpharm.com/sting-platform/
+http://ir.springbankpharm.com/static-files/7fdcecff-96a3-4fea-bcdc-bc8fae01a46c
+https://globenewswire.com/news-release/2018/02/20/1362313/0/en/Spring-Bank-Pharmaceuticals-Provides-Corporate-Update-and-Reports-Fourth-Quarter-and-Full-Year-2017-Financial-and-Operational-Results.html
+
+
+
+

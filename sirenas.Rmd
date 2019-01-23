@@ -1,0 +1,77 @@
+---
+title: "Sirenas"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+
+
+
+# **Sirenas Corporate Profile (competitive strength):  **    
+The company’s proprietary drug discovery technology, **`ATLANTIS™`**, uses **data mining** and **machine learning** approaches (BIG DATA) to uncover the therapeutic potential of nature’s chemistry from a diversity of global microbiome collections. Initially, Sirenas has deployed this technology in marine environments to sustainably collect samples of microorganisms and their affiliated commensal microbial communities, providing a rich source of valuable chemical diversity. Through these efforts, Sirenas has amassed a highly curated collection of hundreds of thousands of nature-inspired molecules that can be interrogated for their therapeutic potential.
+
+ATLANTIS™ enables the uncovering of therapeutic leads from a previously hidden, rich pool of privileged chemistry that can be leveraged to help tackle the greatest unmet disease needs such as infectious diseases and oncology.
+
+In addition, Sirenas is actively seeking partnership opportunities with pharmaceutical companies and research foundations to broaden use of its ATLANTIS™ technology. In February 2018, Sirenas and `Bristol-Meyers Squibb` entered into a multi-target collaboration to deploy ATLANTIS™ against certain undisclosed challenging therapeutic targets to identify potential drug candidates.
+
+
+
+
+
+# **Latest news: **  
+Feb.12.18 - Sirenas Enters Into Multi-Target Collaboration With Bristol-Myers Squibb  
+Dec.13.17 - Sirenas receives research grant totaling $1.68 M to accelerate its drug discovery technology, ATLANTIS™.  
+
+
+
+
+#**Pipeline**
+<center><img src="timeline_pic.png" style="width:50%; height:70px">
+<center><img src="./company_analysis_excel/sirenas.jpg">  
+
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference  
+http://sirenasmd.com/#section-pipeline  
+https://www.prnewswire.com/news-releases/sirenas-enters-into-multi-target-collaboration-with-bristol-myers-squibb-300596468.html  
+https://www.prnewswire.com/news-releases/sirenas-receives-research-grant-totaling-168-m-to-accelerate-its-drug-discovery-technology-atlantis-300570288.html?tc=eml_cleartime

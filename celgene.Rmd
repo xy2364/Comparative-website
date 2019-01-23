@@ -1,0 +1,70 @@
+---
+title: "Celgene"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
+output: html_document
+---
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
+
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+\
+
+
+
+
+
+# **Celgene Corporate Profile (competitive strength):  ** 
+Celgene Corporation is an American biotechnology company that discovers, develops and commercializes medicines for cancer and inflammatory disorders. They are currently developing about 50 new drugs and many of them have reached Phase III trial. Their researches target multiple areas and diseases, such as Multiple Myeloma(MM), Myelodysplastic syndromes(MDS),  Acute Myeloid Leukemia(AML), Lymphoma, Chronic Lymphocytic Leukemia(CLL), Beta-Thalassemia, Myelofibrosis(MF), Solid Tumors, Inflammation and Immunology. However, they do not have wholly-owned STING Pathway immunotherapy, which Celgene has secured an option on a preclinical asset in development at `Nimbus Therapeutics` on small molecule, non-nucleotide antagonist of STING.
+
+
+
+
+
+# **Latest news about their STING partnership with Nimbus Therapeutics: **   
+In October 2017, Nimbus and Celgene entered a long-term strategic immunology alliance, which includes Nimbus’ preclinical STING antagonist program. This program seeks to block the role played by STING in the activation of the innate immune system in lupus and other interferonopathies. Under the terms of the agreement, Nimbus received an upfront payment and is eligible for potential downstream milestone payments if Celgene chooses to exercise its option to acquire the STING antagonist program. Nimbus will retain full control of research and development activities for the STING antagonist program prior to the program’s option point.  
+
+
+
+#**Pipeline**
+
+<center><img src="timeline_pic.png" style="width:50%; height:70px">
+<center><img src="./company_analysis_excel/celgene.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference 
+http://media.celgene.com/content/uploads/product-pipeline.pdf  
+https://www.fiercebiotech.com/biotech/celgene-pens-pact-to-join-bristol-myers-pfizer-r-d-race
